@@ -8,7 +8,7 @@ from discord.ext.commands import Bot
 import keepAlive
 
 BOT_PREFIX = ("eb ")
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("token")
 
 client = Bot(command_prefix=BOT_PREFIX)
 
